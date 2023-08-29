@@ -1,0 +1,274 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* banner Part  */
+.header{
+    display: flex;
+    align-items: center;
+    
+    max-width: 1920px;;
+    background-color: #fae0e6;
+    margin: auto;
+}
+.header-description{
+    margin-left: 120px;
+    margin-right: 150px;
+}
+.header-flower{
+    margin-right: 120px;
+    
+}
+.header-image{
+    width: 520px;
+     height: 600px;
+}
+h1{
+    font-weight: 800;
+    font-size: 60px;
+}
+header p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.btn-primary{
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 15px;
+    height: 50px;
+    background: #E55473;
+    border-radius: 8px;
+    border: 0;
+    padding: 9px 40px;
+}
+/* main body part  */
+/* feature */
+.feature-container{
+    max-width: 1440px;
+    margin: 0px 240px;
+}
+.feature-details{
+    text-align: center;
+    margin: 50px 0px;
+}
+.feature-details h3{
+    color: #272727;
+font-size: 30px;
+font-weight:600;
+margin-bottom: 10px;
+
+}
+.feature-details p{
+    color: rgba(39, 39, 39, 0.60);
+font-size: 14px;
+font-weight: 400;
+}
+
+.feature-image{
+    width: 230px;
+    height: 240px;
+    margin-top: 108px;
+    margin-left: 25px;
+
+}
+.feature-image-box{
+    width: 300px;
+    height: 350px;
+border-radius: 300px 300px 0px 0px;
+background: rgba(167, 33, 98, 0.15);
+
+}
+.feature-image-box-2{
+    width: 300px;
+    height: 350px;
+border-radius: 300px 300px 0px 0px;
+background: rgba(5, 151, 160, 0.15);
+
+}
+.feature-image-box-3{
+    width: 300px;
+    height: 350px;
+border-radius: 300px 300px 0px 0px;
+background: rgba(71, 125, 17, 0.15);
+
+}
+
+.image-container{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.pink-flower{
+    text-align: center;
+}
+.pink-flower p{
+    font-size: 18px;
+font-weight: 600;
+text-decoration-line: underline;
+color: #272727;
+margin-top: 10px;
+}
+
+/* service  */
+.product-service{
+    margin: 50px 240px;
+    max-width: 1440px;
+height: 200px;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 50px;
+border-radius: 8px;
+background: rgba(39, 39, 39, 0.05);
+}
+.service{
+   
+    text-align: center;
+}
+/* deal section  */
+.deal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 100px;
+    max-width: 1922px;
+    margin: 0px auto;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+padding: 20px ;
+}
+.deal-image{
+    width: 270px;
+height: 300px;
+}
+.deal-details{
+    margin-left: 240px;
+}
+.deal-details-image{
+    margin-right: 240px;
+}
+.deal-details p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgba(39, 39, 39, 0.60);
+    
+}
+.deal-details h3{
+    font-size: 40px;
+    font-weight: 800;
+}
+.Off{
+    color: #E55473;
+}
+/* instagram */
+.instagram-container{
+    max-width: 1922px;
+    margin: 50px auto;
+}
+
+.instagram-details{
+    text-align: center;
+}
+
+.instagram-details h3{
+    font-size: 30px;
+    font-weight: 600;
+    color: #272727;
+}
+.instagram-details p{
+    color: rgba(39, 39, 39, 0.60);
+    font-weight: 400;
+    font-size: 14px;
+    margin: 20px 0;
+}
+.instagram-image{
+    width: 230px;
+height: 240px;
+}
+.insta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+
+    
+}
+ /* deal section  */
+.getdeal{
+    background-image: url('images/Rectangle\ 9.png');
+    background-repeat: none;
+    max-width: 1440px;
+height: 200px;
+    margin: 20px 240px;
+    padding: 70px;
+    border-radius: 8px;
+
+}
+.email-form{
+    margin-left: 70px;
+    margin-top: 20px;
+    align-items: center;
+}
+.getdeal h3{
+    
+text-align: center;
+font-size: 30px;
+font-weight: 600;
+
+}
+.getdeal p{
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-size: 10px;
+font-weight: 400;
+margin: 10px 0px;
+
+}
+.email-field{
+    width: 500px;
+height: 10px;
+border-radius: 8px;
+background: #FFF;
+border: none;
+padding: 20px;
+margin-right: 10px;
+}
+
+
+
+
+
+
+
+/* footer  */
+footer{
+    text-align: center;
+    background: #111010;
+    max-width: 1922px;
+    height: 50px;
+    padding: 70px;
+}
+
+.flowerone {
+    color: #E55473;
+    font-weight: 600;
+    font-size: 28px;
+}
+.shop{
+    color: #FFF;
+font-size: 28px;
+font-weight: 600;
+
+}
+
+footer p{
+    color: rgba(255, 255, 255, 0.90);
+    margin: 15px 0px;
+    font-size: 12px;
+}
+.reserve{
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 9px;
+}
