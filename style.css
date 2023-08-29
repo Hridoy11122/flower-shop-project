@@ -8,7 +8,7 @@
     align-items: center;
     
     max-width: 1920px;;
-    background-color: #fae0e6;
+    background-color: #ffe3e9;
     margin: auto;
 }
 .header-description{
@@ -26,10 +26,12 @@
 h1{
     font-weight: 800;
     font-size: 60px;
+    color: rgb(94, 88, 91);
 }
 header p {
     margin-top: 20px;
     margin-bottom: 20px;
+    color: rgb(116, 114, 116);
 }
 .btn-primary{
     color: #FFFFFF;
@@ -52,14 +54,14 @@ header p {
     margin: 50px 0px;
 }
 .feature-details h3{
-    color: #272727;
+    color: #434242;
 font-size: 30px;
 font-weight:600;
 margin-bottom: 10px;
 
 }
 .feature-details p{
-    color: rgba(39, 39, 39, 0.60);
+    color: rgba(46, 45, 45, 0.6);
 font-size: 14px;
 font-weight: 400;
 }
@@ -106,7 +108,7 @@ background: rgba(71, 125, 17, 0.15);
     font-size: 18px;
 font-weight: 600;
 text-decoration-line: underline;
-color: #272727;
+color: #444242;
 margin-top: 10px;
 }
 
@@ -126,7 +128,7 @@ background: rgba(39, 39, 39, 0.05);
    
     text-align: center;
 }
-/* deal section  */
+/* hot deal section  */
 .deal{
     display: flex;
     justify-content: space-between;
@@ -191,7 +193,7 @@ height: 240px;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 25px;
+    gap: 30px;
 
     
 }
@@ -216,6 +218,7 @@ height: 200px;
 text-align: center;
 font-size: 30px;
 font-weight: 600;
+color: #444242;
 
 }
 .getdeal p{
@@ -236,8 +239,53 @@ padding: 20px;
 margin-right: 10px;
 }
 
+/* contact and query  */
 
+.contact{
+    display: flex;
+    /* align-items: center; */
+    text-align: center;
+    max-width: 1922px;
+    height: 205px;
+    border-radius: 8px;
+    background: rgba(224, 94, 122, 0.342);
+    padding: 150px 200px;
+    margin-bottom: 30px;
 
+}
+.contact h3{
+    color: rgba(39, 39, 39, 0.60);
+    font-weight: 800;
+    font-size: 30px;
+    margin: 20px 0;
+
+}
+.contact p{
+    color: rgba(39, 39, 39, 0.60);
+    font-weight: 500;
+    font-size: 15px;
+    margin: 20px 0;
+
+}
+.order-column{
+    width: 50%;
+    
+}
+.order-column h3{
+    margin-bottom: 10px;
+}
+
+.Query input,textarea{
+    display: block;
+    margin-bottom: 15px;
+    padding: 10px 35px;
+    border-radius: 5px;
+    border: none;
+    width: 70%;
+}
+.Query button{
+    display: block;
+}
 
 
 
